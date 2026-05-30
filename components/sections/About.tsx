@@ -21,7 +21,7 @@ export function About() {
 
         <div className="mt-14 relative aspect-[16/8] rounded-[36px] overflow-hidden">
           <Image
-            src="/images/equipo.png"
+            src="/images/equipoTrabajando.png"
             alt="Equipo de Siete trabajando con un cliente"
             fill
             className="object-cover"
@@ -50,20 +50,16 @@ export function About() {
             </p>
           </article>
 
-          <article className="rounded-[28px] bg-primary text-cream p-8 md:p-10 relative overflow-hidden">
-            <span className="eyebrow text-gold">Visión 2030</span>
+          <article className="rounded-[28px] bg-cream-warm p-8 md:p-10 border border-ink/5">
+            <span className="eyebrow text-accent">Visión 2030</span>
             <h3 className="font-display text-3xl md:text-4xl mt-4 mb-4 leading-tight">
               Acompañar 500 organizaciones.
             </h3>
-            <p className="text-cream/85 leading-relaxed">
+            <p className="text-ink-soft leading-relaxed">
               Para 2030, Siete habrá acompañado a más de 500 organizaciones en
               la construcción de ambientes de trabajo saludables a través de la
               región.
             </p>
-            <span
-              aria-hidden
-              className="absolute -bottom-12 -right-12 size-48 rounded-full bg-gold/20"
-            />
           </article>
         </div>
 
@@ -90,12 +86,6 @@ export function About() {
               </div>
             ))}
           </div>
-        </div>
-
-        <div className="mt-14 flex justify-center">
-          <Button variant="primary" href="/expertos">
-            Quiénes hacemos esto posible →
-          </Button>
         </div>
       </Container>
     </section>
