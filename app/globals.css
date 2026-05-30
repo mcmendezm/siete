@@ -1,26 +1,180 @@
 @import "tailwindcss";
 
+/* =========================
+   SIETE — Design Tokens
+   Basado en el manual de marca 2025
+   ========================= */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Primario — Morado vibrante */
+  --color-primary: #6a00ce;
+  --color-primary-deep: #4a0091;
+  --color-primary-soft: #8533db;
+  --color-primary-tint: #b580e8;
+
+  /* Acento — Rosado/Magenta */
+  --color-accent: #ff0083;
+  --color-accent-deep: #cc0069;
+  --color-accent-soft: #ffd9ec;
+
+  /* Dorado de apoyo (sobre fondos morados) */
+  --color-gold: #f2b544;
+
+  /* Crema de fondo */
+  --color-cream: #fdf8f3;
+  --color-cream-deep: #f5ebe0;
+  --color-cream-warm: #faf3ea;
+
+  /* Tinta */
+  --color-ink: #1f1626;
+  --color-ink-soft: #5b4e62;
+  --color-ink-mute: #8b7e92;
+
+  /* Happly — paleta propia (solo sección Happly) */
+  --color-happly-lavender: #9882e0;
+  --color-happly-sage: #bcef9b;
+  --color-happly-yellow: #fef2b8;
+
+  /* Layout */
+  --container-max: 1200px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-xl: 36px;
+
+  /* Tipografía */
+  --font-display: var(--font-bodoni), "Bodoni Moda", Georgia, serif;
+  --font-sans: var(--font-poppins), system-ui, -apple-system, sans-serif;
 }
 
+/* Exponer tokens a Tailwind v4 */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--color-primary);
+  --color-primary-deep: var(--color-primary-deep);
+  --color-primary-soft: var(--color-primary-soft);
+  --color-primary-tint: var(--color-primary-tint);
+  --color-accent: var(--color-accent);
+  --color-accent-deep: var(--color-accent-deep);
+  --color-accent-soft: var(--color-accent-soft);
+  --color-gold: var(--color-gold);
+  --color-cream: var(--color-cream);
+  --color-cream-deep: var(--color-cream-deep);
+  --color-cream-warm: var(--color-cream-warm);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-ink-mute: var(--color-ink-mute);
+  --color-happly-lavender: var(--color-happly-lavender);
+  --color-happly-sage: var(--color-happly-sage);
+  --color-happly-yellow: var(--color-happly-yellow);
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
+}
+
+/* Reglas utilitarias de marca */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+}
+
+/* Marquee animation para logos */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* Pulse para indicador "activo" */
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* Fade-up al hacer scroll (usado con IntersectionObserver client) */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out both;
+}
+
+/* Selección de texto en color de marca */
+::selection {
+  background: var(--color-primary);
+  color: var(--color-cream);
+}
+
+/* Scroll suave nativo */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Happly — pulse indicator */
+@keyframes pulse-green {
+  0%   { box-shadow: 0 0 0 0 rgba(188, 239, 155, 0.7); }
+  70%  { box-shadow: 0 0 0 8px rgba(188, 239, 155, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(188, 239, 155, 0); }
+}
+.animate-pulse-happly {
+  animation: pulse-green 2s infinite;
 }
