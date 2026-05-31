@@ -7,27 +7,27 @@ export type Value = {
 export const sieteValues: Value[] = [
   {
     letter: "S",
-    name: "Sinceridad",
+    name: "inceridad",
     description: "Conversaciones honestas, datos sobre la mesa.",
   },
   {
     letter: "I",
-    name: "Innovación",
+    name: "nnovación",
     description: "Métodos basados en evidencia, no en modas.",
   },
   {
     letter: "E",
-    name: "Excelencia",
+    name: "xcelencia",
     description: "Rigor en cada diagnóstico y en cada acción.",
   },
   {
     letter: "T",
-    name: "Trascendencia",
+    name: "rascendencia",
     description: "Impacto que sobrevive al cierre del proyecto.",
   },
   {
     letter: "E",
-    name: "Empatía",
+    name: "mpatía",
     description: "Personas primero, métricas después.",
   },
 ];
