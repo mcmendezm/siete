@@ -49,7 +49,7 @@ export function Contact() {
             <em className="not-italic italic text-primary">más saludable?</em>
           </h2>
           <p className="mt-4 text-ink-soft max-w-xl mx-auto leading-relaxed">
-            Completá el formulario y un asesor te contactará en menos de 24 horas hábiles.
+            Completa el formulario y un asesor te contactará en menos de 24 horas hábiles.
           </p>
         </div>
 
@@ -63,7 +63,7 @@ export function Contact() {
                 Un equipo experto, a un mensaje de distancia.
               </p>
               <p className="text-cream/65 text-sm leading-relaxed">
-                Trabajamos con organizaciones de todos los tamaños en LATAM. Sin importar el punto de partida, tenemos un camino para vos.
+                Trabajamos con organizaciones de todos los tamaños en LATAM. Sin importar el punto de partida, tenemos un camino para tu organización.
               </p>
             </div>
 
@@ -122,15 +122,15 @@ export function Contact() {
             />
 
             <TextareaField
-              label="¿Qué necesitás?"
+              label="¿Qué necesitas?"
               name="message"
-              placeholder="Contanos brevemente sobre tu organización y el reto que querés resolver…"
+              placeholder="Cuéntanos brevemente sobre tu organización y el reto que quieres resolver…"
               required
             />
 
             <div className="flex items-center justify-between gap-4 pt-1 flex-wrap">
               <p className="text-ink-mute text-xs">
-                Al enviar aceptás nuestra{" "}
+                Al enviar aceptas nuestra{" "}
                 <a href="/privacidad" className="underline underline-offset-2 hover:text-primary transition-colors">
                   Política de Privacidad
                 </a>.
@@ -223,7 +223,7 @@ function SelectField({
         className="bg-white border border-ink/12 rounded-xl px-4 py-3 text-ink focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/15 transition-all text-sm appearance-none cursor-pointer"
       >
         <option value="" disabled className="text-ink-mute">
-          Seleccioná el servicio que necesitás
+          Selecciona el servicio que necesitas
         </option>
         {options.map((o) => (
           <option key={o} value={o}>{o}</option>

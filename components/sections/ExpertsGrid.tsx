@@ -66,7 +66,7 @@ export function ExpertsGrid() {
 
         <div className="mt-20 rounded-[28px] bg-primary text-cream p-10 md:p-14 text-center max-w-3xl mx-auto">
           <h3 className="font-display text-3xl md:text-4xl leading-tight mb-4">
-            ¿Querés conversar con nosotros?
+            ¿Quieres conversar con nosotros?
           </h3>
           <p className="text-cream/80 mb-8 max-w-xl mx-auto">
             Estamos a una conversación de empezar a construir el ambiente de
