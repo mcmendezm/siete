@@ -66,9 +66,7 @@ export function Happly() {
                 alt="Happly"
                 width={160}
                 height={56}
-                className="brightness-0 invert"
               />
-              <span className="text-xs font-semibold opacity-60 text-white mt-0.5">®</span>
             </div>
 
             {/* Pill live */}
