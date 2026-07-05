@@ -75,9 +75,7 @@ export function Contact() {
 
             {/* Decoración */}
             <div className="flex gap-3 pt-2">
-              <div className="size-2 rounded-full bg-primary" />
-              <div className="size-2 rounded-full bg-accent" />
-              <div className="size-2 rounded-full bg-primary-tint" />
+ 
             </div>
           </div>
 

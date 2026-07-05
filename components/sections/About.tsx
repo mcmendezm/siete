@@ -21,7 +21,7 @@ export function About() {
 
         <div className="mt-14 relative aspect-[16/8] rounded-[36px] overflow-hidden">
           <Image
-            src="/images/equipoTrabajando.png"
+            src="/images/equipoTrabajando.jpg"
             alt="Equipo de Siete trabajando con un cliente"
             fill
             className="object-cover"

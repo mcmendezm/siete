@@ -92,7 +92,7 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
         variants={containerVariants}
       >
         {/* Left — contenido */}
-        <div className="flex w-full flex-col justify-between p-8 md:w-1/2 md:p-12 lg:w-1/2 lg:p-16">
+        <div className="flex w-full flex-col justify-between p-8 md:w-[42%] md:p-12 lg:w-[42%] lg:p-16">
           <div>
             {/* Logo / Slogan */}
             {(logo || slogan) && (
@@ -210,7 +210,7 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
         </div>
 
         {/* Right — imagen con clip-path animado */}
-        <div className="relative w-full min-h-[340px] md:w-1/2 md:min-h-full lg:w-1/2">
+        <div className="relative w-full min-h-[340px] md:w-[58%] md:min-h-full lg:w-[58%]">
           <motion.div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: `url(${backgroundImage})` }}

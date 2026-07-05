@@ -33,7 +33,7 @@ export function Hero() {
       subtitle={site.description}
       callToAction={{ text: "Agenda una asesoría", href: "#contacto" }}
       secondaryAction={{ text: "Conoce Happly", href: "#happly" }}
-      backgroundImage="/images/equipo.png"
+      backgroundImage="/images/equipo.jpg"
       metrics={heroMetrics.map((m) => ({ value: m.value, label: m.label }))}
     />
   );
