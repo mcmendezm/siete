@@ -9,13 +9,13 @@ export function Footer() {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8">
           <div className="md:col-span-4 flex flex-col gap-6">
-            <div className="inline-flex items-center bg-cream rounded-full px-5 py-3 w-fit">
+            <div className="inline-flex items-center w-fit">
               <Image
-                src="/images/brand/siete-logo.svg"
+                src="/images/brand/logoSietegris.png"
                 alt={site.name}
-                width={88}
-                height={32}
-                className="h-7 w-auto"
+                width={140}
+                height={60}
+                className="h-12 w-auto"
               />
             </div>
             <p className="text-cream/80 text-sm leading-relaxed max-w-xs">
