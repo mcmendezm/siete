@@ -64,7 +64,7 @@ export function Happly() {
               <Image
                 src="/images/brand/happly-logo.png"
                 alt="Happly"
-                width={160}
+                width={200}
                 height={56}
               />
             </div>
