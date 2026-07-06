@@ -7,10 +7,12 @@ export function ExpertsGrid() {
   return (
     <section className="py-24 md:py-32">
       <Container>
-        <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto">
+        <div className="mb-10">
           <Button variant="ghost" href="/">
             ← Volver al inicio
           </Button>
+        </div>
+        <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto">
           <span className="eyebrow text-accent">Nuestro equipo</span>
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[1.05]">
             Las personas detrás de cada{" "}
@@ -64,15 +66,15 @@ export function ExpertsGrid() {
           ))}
         </div>
 
-        <div className="mt-20 rounded-[28px] bg-primary text-cream p-10 md:p-14 text-center max-w-3xl mx-auto">
-          <h3 className="font-display text-3xl md:text-4xl leading-tight mb-4">
+        <div className="mt-20 rounded-[28px] bg-ink text-cream p-10 md:p-14 text-center max-w-3xl mx-auto">
+          <h3 className="font-display text-3xl md:text-4xl leading-tight mb-4 text-white">
             ¿Quieres conversar con nosotros?
           </h3>
-          <p className="text-cream/80 mb-8 max-w-xl mx-auto">
+          <p className="text-cream/85 mb-8 max-w-xl mx-auto">
             Estamos a una conversación de empezar a construir el ambiente de
             trabajo que tu organización necesita.
           </p>
-          <Button variant="gold" href="/#contacto">
+          <Button variant="accent" href="/#contacto">
             Agenda una conversación
           </Button>
         </div>

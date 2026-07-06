@@ -48,7 +48,7 @@ export const navigation = {
 
 export const heroMetrics = [
   {
-    value: "+200",
+    value: "+ ?",
     label: "organizaciones en LATAM",
   },
   {
