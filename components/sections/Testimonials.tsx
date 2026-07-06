@@ -29,7 +29,7 @@ export function Testimonials() {
           <SectionHeading
             eyebrow="Así se vive la experiencia Siete"
             title="Lo que dicen quienes han trabajado con nosotros."
-            subtitle="Más de 200 organizaciones en Colombia y México han confiado en nuestro método. Estos son algunos de sus relatos."
+            subtitle="Organizaciones de distintos sectores han confiado en nosotros."
           />
         </motion.div>
 
