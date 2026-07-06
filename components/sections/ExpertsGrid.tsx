@@ -5,7 +5,7 @@ import { experts } from "@/data/experts";
 
 export function ExpertsGrid() {
   return (
-    <section className="py-24 md:py-32">
+    <section>
       <Container>
         <div className="mb-10">
           <Button variant="ghost" href="/">
@@ -67,7 +67,7 @@ export function ExpertsGrid() {
         </div>
 
         <div className="mt-20 rounded-[28px] bg-ink text-cream p-10 md:p-14 text-center max-w-3xl mx-auto">
-          <h3 className="font-display text-3xl md:text-4xl leading-tight mb-4 text-white">
+          <h3 className="font-display text-3xl md:text-4xl leading-tight mb-4 text-white!">
             ¿Quieres conversar con nosotros?
           </h3>
           <p className="text-cream/85 mb-8 max-w-xl mx-auto">
