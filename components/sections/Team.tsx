@@ -26,7 +26,7 @@ export function Team() {
             autoplay
             colors={{
               name: "#1F1626",
-              designation: "#6A00CE",
+              designation: "#FF0083",
               testimony: "#5B4E62",
               arrowBackground: "#1F1626",
               arrowForeground: "#FDF8F3",

@@ -217,10 +217,10 @@ export const CircularTestimonials = ({
                 {activeTestimonial.designation}
               </p>
               <blockquote
-                className="leading-relaxed italic font-display border-l-2 border-primary pl-4"
+                className="leading-relaxed italic font-display border-l-2 border-accent pl-4"
                 style={{ color: colorTestimony, fontSize: fontSizeQuote }}
               >
-                <span className="not-italic" style={{ color: "var(--color-primary)" }}>"</span>
+                <span className="not-italic" style={{ color: "var(--color-accent)" }}>"</span>
                 {activeTestimonial.quote.split(" ").map((word, i) => (
                   <motion.span
                     key={i}
@@ -232,7 +232,7 @@ export const CircularTestimonials = ({
                     {word}&nbsp;
                   </motion.span>
                 ))}
-                <span className="not-italic" style={{ color: "var(--color-primary)" }}>"</span>
+                <span className="not-italic" style={{ color: "var(--color-accent)" }}>"</span>
               </blockquote>
             </motion.div>
           </AnimatePresence>
