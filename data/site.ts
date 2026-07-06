@@ -3,8 +3,8 @@ export const site = {
   tagline: "Mejores personas, mejores empresas",
   description:
     "Construimos entornos de trabajo saludables aplicando analítica de datos y ciencias del comportamiento. Reducimos la rotación, fortalecemos la cultura y elevamos la felicidad de quienes hacen posible tu organización.",
-  founded: 2014,
-  yearsActive: 12,
+  founded: 2021,
+  yearsActive: 5,
   contact: {
     address: "Cra 35 #19-620 interior 2710, Medellín, Colombia",
     phones: ["300 779 6474", "301 385 6433"],
@@ -23,11 +23,9 @@ export const navigation = {
     { label: "Happly", href: "#happly" },
     { label: "Nosotros", href: "#nosotros" },
     { label: "Expertos", href: "/expertos" },
-    { label: "Blog", href: "#blog" },
     { label: "Contacto", href: "#contacto" },
   ],
   cta: {
-    secondary: { label: "Portal Clientes", href: "#portal" },
     primary: { label: "Conversemos", href: "#contacto" },
   },
   footer: {
@@ -40,11 +38,8 @@ export const navigation = {
     producto: [
       { label: "Happly", href: "#happly" },
       { label: "Solicita un demo", href: "#contacto" },
-      { label: "Portal clientes", href: "#portal" },
     ],
     recursos: [
-      { label: "Blog", href: "#blog" },
-      { label: "Investigaciones", href: "#blog" },
       { label: "Política de privacidad", href: "/privacidad" },
       { label: "Contacto", href: "#contacto" },
     ],

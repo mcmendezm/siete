@@ -53,9 +53,6 @@ export function Header() {
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
-          <Button variant="secondary" href={navigation.cta.secondary.href}>
-            {navigation.cta.secondary.label}
-          </Button>
           <Button variant="primary" href={navigation.cta.primary.href}>
             {navigation.cta.primary.label}
           </Button>
@@ -102,9 +99,6 @@ export function Header() {
               </Link>
             ))}
             <div className="flex flex-col gap-3 pt-4">
-              <Button variant="secondary" href={navigation.cta.secondary.href}>
-                {navigation.cta.secondary.label}
-              </Button>
               <Button variant="primary" href={navigation.cta.primary.href}>
                 {navigation.cta.primary.label}
               </Button>

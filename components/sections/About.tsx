@@ -3,6 +3,7 @@ import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import { sieteValues } from "@/data/values";
+import { site } from "@/data/site";
 
 export function About() {
   return (
@@ -31,7 +32,7 @@ export function About() {
           <div className="absolute left-8 bottom-8 md:left-12 md:bottom-12 max-w-md">
             <p className="font-display text-2xl md:text-3xl text-cream leading-tight">
               {sieteValues.length > 0 && (
-                <>12 años acompañando a empresas en LATAM.</>
+                <>{site.yearsActive} años acompañando a empresas en LATAM.</>
               )}
             </p>
           </div>
