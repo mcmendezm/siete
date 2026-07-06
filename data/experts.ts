@@ -18,7 +18,7 @@ export const experts: Expert[] = [
     quote:
       "Me conecto genuinamente con lo que les duele a nuestros clientes, por eso los acompaño a construir verdaderas soluciones, siempre en el marco de uno de nuestros valores, la Empatía.",
     email: "elena@sietegho.com",
-    photo: "/images/team/elena.jpg",
+    photo: "/images/team/ElenaCortina.png",
   },
   {
     id: "alejandro",
@@ -28,7 +28,7 @@ export const experts: Expert[] = [
     quote:
       "Cuando veo gente que disfruta y se enorgullece de su trabajo y empresas que valoran a sus trabajadores y sustentan su éxito en una relación positiva y saludable con ellos, me doy cuenta de que vale mucho la pena hacer lo que hago.",
     email: "alejandro@sietegho.com",
-    photo: "/images/team/alejandro.jpg",
+    photo: "/images/team/AlejandroSanin.png",
   },
   {
     id: "maribel",
@@ -38,7 +38,7 @@ export const experts: Expert[] = [
     quote:
       "Yo trabajo en esto porque sé que es posible que las organizaciones se centren en la gente, que sean su fin y no su medio.",
     email: "maribel@sietegho.com",
-    photo: "/images/team/maribel.jpg",
+    photo: "/images/team/MaribelGiraldo.png",
   },
   {
     id: "maria-eugenia",
@@ -48,7 +48,7 @@ export const experts: Expert[] = [
     quote:
       "Disfruto cuando encuentro que las personas tienen trabajos que les permiten desarrollar todo su potencial y las empresas descubren que trabajar por esto las hace más competitivas.",
     email: "mariae@sietegho.com",
-    photo: "/images/team/maria-eugenia.jpg",
+    photo: "/images/team/MariaEugeniaLondono.png",
   },
   {
     id: "janis",
@@ -58,7 +58,7 @@ export const experts: Expert[] = [
     quote:
       "Disfruto y valoro la diversidad de talentos y experiencias que se reúnen en las organizaciones y que nos permite aprender los unos de los otros.",
     email: "janis@sietegho.com",
-    photo: "/images/team/janis.jpg",
+    photo: "/images/team/JanisLopez.png",
   },
   {
     id: "sebastian",
@@ -68,6 +68,51 @@ export const experts: Expert[] = [
     quote:
       "Lograr que la estrategia y los servicios administrativos y financieros impacten positivamente la gestión de las personas y las organizaciones es el motor principal de mi vida profesional.",
     email: "sebastian@sietegho.com",
-    photo: "/images/team/sebastian.jpg",
+    photo: "/images/team/SebastianVilla.png",
+  },
+  {
+    id: "sara",
+    name: "Sara Álvarez Serna",
+    role: "Directora de Proyectos",
+    focus: "faltante",
+    quote: "faltante",
+    email: "sara@sietegho.com",
+    photo: "/images/team/SaraAlvarez.png",
+  },
+  {
+    id: "luisa",
+    name: "Luisa Fernanda Fernández",
+    role: "Consultora",
+    focus: "faltante",
+    quote: "faltante",
+    email: "clientes@sietegho.com",
+    photo: "/images/team/LuisaFernandez.png",
+  },
+  {
+    id: "lina",
+    name: "Lina Marcela Guevara",
+    role: "Consultora",
+    focus: "faltante",
+    quote: "faltante",
+    email: "lina@sietegho.com",
+    photo: "/images/team/LinaGuevara.png",
+  },
+  {
+    id: "diana",
+    name: "Diana Uribe",
+    role: "Consultora",
+    focus: "faltante",
+    quote: "faltante",
+    email: "diana@sietegho.com",
+    photo: "/images/team/DianaUribe.png",
+  },
+  {
+    id: "anny",
+    name: "Anny C. Franco",
+    role: "Consultora",
+    focus: "faltante",
+    quote: "faltante",
+    email: "anny@sietegho.com",
+    photo: "/images/team/AnnyFranco.png",
   },
 ];
